@@ -62,7 +62,7 @@ def _revoke(client, message):
 async def _token(client, message):
   token = message.text.split()[-1]
   WORD = len(token)
-  if WORD == 65 and token[1] == "/":
+  if WORD == 75 and token[1] == "/":
     creds = None
     global flow
     if flow:
